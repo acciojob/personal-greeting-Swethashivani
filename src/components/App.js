@@ -9,7 +9,7 @@ const[input, setInput] = useState('');
   const{value}=e.target;
     setInput(value);
 }
-const onClear()=>{
+const onClear=()=>{
   setInput('');
 }
   return (
